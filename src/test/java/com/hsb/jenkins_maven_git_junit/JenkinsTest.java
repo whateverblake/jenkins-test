@@ -14,5 +14,15 @@ public class JenkinsTest {
 		
 	}
 	
+	
+	@Test
+	public void testTwo(){
+		
+		JenkinsApp app = new JenkinsApp();
+		
+		System.out.println(app);
+		
+	}
+	
 
 }
